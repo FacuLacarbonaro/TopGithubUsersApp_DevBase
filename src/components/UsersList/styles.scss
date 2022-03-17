@@ -1,0 +1,16 @@
+.list-item {
+      padding: 12px 64px;
+      background-color: #3b89ff;
+      border-radius: 3px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      transition: 0.5s ease-in-out all;
+      margin-right: 12px;
+      margin-bottom: 12px;
+
+      &:hover {
+            background-color: #2564c5;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+}

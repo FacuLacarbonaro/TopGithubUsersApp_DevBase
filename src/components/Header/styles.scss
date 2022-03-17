@@ -1,0 +1,22 @@
+.header-wrapper {
+      display: flex;
+      align-items: center;
+      height: 70px;
+      background-color: #282828;
+      color: white;
+
+      .back-button-wrapper {
+            justify-self: flex-start;
+            margin-left: 24px;
+            cursor: pointer;
+
+            .icon-back{
+                  width: 12px;
+                  margin-right: 12px;
+            }
+      }
+
+      .title-wrapper {
+            margin: auto;
+      }
+}
